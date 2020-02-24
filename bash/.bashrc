@@ -44,11 +44,15 @@ fi
 
 alias ga='git add'
 alias gaa='git add --all'
-alias gs='git status'
+alias gb='git branch'
+alias gc='git checkout'
+alias gcp='git cherry-pick'
 alias gd='git diff'
+alias gm='git commit'
 alias gpl='git pull'
 alias gp='git push'
-alias gm='git commit'
+alias gr='git remote'
+alias gs='git status'
 alias pnc='python -m SimpleHTTPServer 9999'
 
 
