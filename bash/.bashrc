@@ -17,6 +17,7 @@ fi
 alias ll='ls -lF'
 alias la='ls -A'
 alias l='ls -CF'
+alias arc='LC_ALL=C arc'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -65,4 +66,5 @@ export PATH=${JAVA_HOME}/bin:$PATH
 export PATH=$PATH:/usr/local/software/apache-maven-3.6.1/bin
 export EDITOR=vim
 export PYTHONPATH="/usr/bin/python2.7"
-
+export PATH="~/phabricator/arcanist/bin:$PATH"
+export PS1="[\u@\h \W]$"
