@@ -67,4 +67,4 @@ export PATH=$PATH:/usr/local/software/apache-maven-3.6.1/bin
 export EDITOR=vim
 export PYTHONPATH="/usr/bin/python2.7"
 export PATH="~/phabricator/arcanist/bin:$PATH"
-export PS1="[\u@\h \W]$"
+export PS1="[\u@\h \W]$ "
