@@ -35,13 +35,13 @@ fi
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
-fi
+#if ! shopt -oq posix; then
+#  if [ -f /usr/share/bash-completion/bash_completion ]; then
+#    . /usr/share/bash-completion/bash_completion
+#  elif [ -f /etc/bash_completion ]; then
+#    . /etc/bash_completion
+#  fi
+#fi
 
 alias ga='git add'
 alias gaa='git add --all'
@@ -56,7 +56,6 @@ alias gr='git remote'
 alias gs='git status'
 alias pnc='python -m SimpleHTTPServer 9999'
 
-
 ################################################################################
 # 3. Enviorment Variable
 export JAVA_HOME=/usr/java/jdk1.8.0_211
@@ -66,5 +65,6 @@ export PATH=${JAVA_HOME}/bin:$PATH
 export PATH=$PATH:/usr/local/software/apache-maven-3.6.1/bin
 export EDITOR=vim
 export PYTHONPATH="/usr/bin/python2.7"
-export PATH="~/phabricator/arcanist/bin:$PATH"
 export PS1="[\u@\h \W]$ "
+export CLICOLOR=1
+export LSCOLORS=ExGxFxdaCxDaDahbadeche
