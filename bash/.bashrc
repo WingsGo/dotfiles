@@ -65,6 +65,6 @@ export PATH=${JAVA_HOME}/bin:$PATH
 export PATH=$PATH:/usr/local/software/apache-maven-3.6.1/bin
 export EDITOR=vim
 export PYTHONPATH="/usr/bin/python2.7"
-export PS1="[\u@\h \W]$ "
+export PS1="%{$fg[green]%}%m@%{$fg[magenta]%}%(?..%?%1v)%n:%{$reset_color%}%{$fg[cyan]%}%~# %{$fg[cyan]%}%c%{$reset_color%} "
 export CLICOLOR=1
 export LSCOLORS=ExGxFxdaCxDaDahbadeche
