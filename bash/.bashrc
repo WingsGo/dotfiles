@@ -68,3 +68,4 @@ export PYTHONPATH="/usr/bin/python2.7"
 export PS1="%{$fg[green]%}%m@%{$fg[magenta]%}%(?..%?%1v)%n:%{$reset_color%}%{$fg[cyan]%}%~# %{$fg[cyan]%}%c%{$reset_color%} "
 export CLICOLOR=1
 export LSCOLORS=ExGxFxdaCxDaDahbadeche
+export HOMEBREW_NO_AUTO_UPDATE=true
